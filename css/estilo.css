@@ -1,0 +1,542 @@
+.princial{
+	width: 90%;
+}
+
+.contenedor{
+	position: relative;
+	width: 100%;
+	height: 250px;
+}
+
+.paddBlack{
+	position: absolute;
+	background-color: black;
+	color: white;
+	opacity: 0.9;
+	width: 100%;
+	height: 20%;
+	top: 80%;
+}
+
+.primerSeccion{
+	list-style: none !important; 
+	padding-top: 2px !important; 
+	padding-bottom: 2px !important;
+}
+
+.titleSeccion{
+	font-size: 200%;
+}
+
+.tamanoBtn{
+	height: 25px;
+	width: 120px;
+	background-color: darkorange !important;
+	line-height: 0.5em !important;
+	padding-left: 10px !important;
+	padding-right: 10px !important;
+	border-radius: 2px !important;
+	color: #000 !important;
+}
+
+.fondoBlanco{
+	position: relative;
+	width:100% ; 
+    height: 375px; 
+    margin-right:0px;  
+    background-color: white; 
+}
+
+.encimaIzq{
+	width: 10% !important;
+	z-index: 1;
+	position: absolute;
+	top: 0;
+}
+
+.encimaDere{
+	width: 10% !important;
+	z-index: 1;
+	position: absolute;
+	top: 0;
+	left: 90%;
+}
+
+.primerP{
+	width: 40%;
+	z-index: 1;
+	position: absolute;;
+	top: 80%;
+	left: 10%;
+	font-size: 200%;
+}
+
+.segundaP{
+	width: 40%;
+	z-index: 1;
+	position: absolute;;
+	top: 80%;
+	left: 50%;
+	font-size: 200%;
+}
+
+.byeStyle{
+	list-style: none;
+}
+
+.content2{
+	margin-left: 10%; 
+	margin-right:10%;
+}
+
+.contenido2{
+	margin-left: 5%; 
+	margin-bottom:0px;
+	margin-top:0px;
+}
+
+.imgMiddle{
+	width: 100%;
+	height: 150px; 
+}
+
+.btn-slide{
+	width: 100% !important;
+	height: 375px;
+	padding-right: 0px !important;
+	padding-left: 0px !important;
+	border-radius:0px !important;
+	border: 0px !important;
+}
+
+.recommended h3{
+	font-size: 130%;
+}
+
+/* @media for tablets: Prueba tablet 7" */
+
+@media (min-width: 650px){
+
+	.paddBlack{
+		top: 85%;
+	}
+	.cajaViewOffer{
+		padding-top: 5px !important;
+	}
+
+	.contenedor{
+		height: 350px;
+
+	}
+
+	.paddBlack{
+		height: 15%;
+	}
+
+	.content2 h1{
+		font-size: 300%;
+	}
+	.content2 h2{
+		font-size: 200%;
+	}
+
+	.content2 p{
+		font-size: 150%;
+	}
+
+	.content2 h6{
+		font-size: 100%;
+	}
+
+	.imgMiddle{
+		height: 200px;
+	}
+
+	.fondoBlanco{
+		height: 500px;
+	}
+
+	.btn-slide{
+		height: 500px;
+	}
+
+	.primerP{
+		top: 85%;
+		font-size: 200% !important;
+	}
+
+	.segundaP{
+		top: 85%;
+		font-size: 200% !important;
+	}
+
+}
+
+/* Termina @media para Tablets*/
+
+
+.btn-Down{
+	z-index: 1;
+	height:10%;
+    width:40%;
+    top: 10% !important;
+    left: 10%;
+    border-radius:0px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    border: 0px !important;
+}
+
+.btn2-Down{
+	z-index: 1;
+	position: absolute !important;
+	height:10%;
+    width:40%;
+    top: 90% !important;
+    left: 50%;
+    border-radius:0px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    border: 0px !important;
+}
+
+/*Prueba*/
+
+#priceMore p{
+	font-size: 110% !important;
+	color: #f39412;
+}
+
+.inside{
+			margin-left: 10px;
+		}
+
+		.time{
+			float: right;
+			width: 30%;
+		}
+
+		.tabla{
+			text-align: center;
+		}
+		.tabla td{
+			padding: 2px;
+			padding-right: 
+		}
+
+		.tabla p{
+			font-size: 60%;
+			color: #fff;
+			margin: 0px;
+		}
+
+/*Cierre Prueba */
+ 
+/* Marlon */
+
+.count{
+display:inline-block;
+width:120px;
+
+font-size:100%;
+vertical-align: top
+}
+.count ul{
+	margin: 0px;
+	padding-left: 5px;	
+	padding-top: 1.5px;
+}
+
+.count li{
+	display:inline-block;
+	width: 30px;
+}
+
+.cajaViewOffer{
+	padding-top: 5px;
+	width: 45%;
+}
+
+.cajaViewOffer h1{
+	font-size: 200%;
+}
+
+.pruebaBtn{
+	width:60%; 
+	height: 30px;
+	margin-left: auto !important;
+    margin-right: auto !important;
+	margin-top: 5px !important; 
+    padding-left:0px !important; 
+    padding-right: 0px !important; 
+    margin-right: 0px !important; 
+    border-radius: 2px !important; 
+    border: 0px !important;
+}
+
+.floatRight{
+	  float: right;
+	  margin-right: 10px !important;
+}
+
+
+
+/* @media para celulares de tamaño medio*/
+@media (max-width: 450px){
+	.count{
+		font-size: 65%;
+		width: 100px;
+		padding-left: 5px;
+		padding-top: 5px;
+	}
+
+	.count li{
+		padding-left: 0px !important;	
+	}
+
+	.count ul{
+		padding-left: 0px !important;
+	}
+
+	.cajaViewOffer{
+		padding-top: 10px;
+	}
+
+	.cajaViewOffer h1{
+		font-size: 135%;
+	}
+
+	.pruebaBtn{
+		width: 50%;
+		height: 25px;
+		margin-top: 0px !important; 
+		margin-right: 15px !important; 
+	}
+	
+	.primerP{
+		top: 85%;
+		font-size: 150% !important;
+	}
+
+	.segundaP{
+		top: 85%;
+		font-size: 150% !important;
+	}
+
+
+}
+
+
+/* @media para celulares de tamaño pequeño*/
+
+@media (max-width: 350px){
+	.count{
+		font-size: 55%;
+		width: 70px;
+		padding-left: 5px;
+		padding-top: 5px;
+	}
+
+	.count li{
+		padding-left: 0px !important;	
+		width: 20px;
+	}
+
+	.count ul{
+		padding-left: 0px !important;
+	}
+
+	.cajaViewOffer{
+		padding-top: 7.5px;
+	}
+
+	.cajaViewOffer h1{
+		font-size: 115%;
+	}
+
+	.pruebaBtn{
+		width: 50%;
+		height: 20px;
+		margin-top: 0px !important; 
+		margin-right: 15px !important; 
+	}
+
+	.titleSeccion{
+		font-size: 150%;
+	}
+	.paddBlack{
+		top: 85%;
+		height: 20%;	
+	}
+
+	.contenedor{
+		height: 180px;
+	}
+
+	.imgMiddle{
+		height: 100px;
+	}
+
+	.content2 h1{
+		font-size: 130%;
+	}
+	.content2 h2{
+		font-size: 120%;
+	}
+
+	.content2 p{
+		font-size: 90%;
+	}
+
+	.content2 h6{
+		font-size: 70%;
+	}
+
+	.fondoBlanco{
+		height: 275px;
+	}
+
+	.btn-slide{
+		height: 275px;
+	}
+
+	.primerP{
+		top: 87%;
+		font-size: 100% !important;
+	}
+
+	.segundaP{
+		top: 87%;
+		font-size: 100% !important;
+	}
+
+	.recommended{
+		font-size: 80%;
+	}
+
+}
+/* Cierra Marlon */
+
+/* HOME CSS */
+
+.ceroPadding{
+	padding-top: 2px !important;
+	padding-bottom: 2px !important;
+	list-style: none!important;
+}
+
+.byeMargin{
+	margin-top: 0px !important;
+	margin-bottom: 0px!important;
+}
+
+.byeMarginTop{
+	margin-top: 0px !important;
+}
+
+.hiOrange{
+	color: orange!important;
+}
+
+.hiGray{
+	color: #808080 !important;
+}
+
+.btnListView{
+	width: 27px !important !important;
+	height: 30px !important;
+    padding: 0px !important;
+	margin-bottom: 0px !important;
+	margin-top: 0px !important;	
+}
+
+.btnCart{
+	padding: 0px !important;
+	border: 0px !important;	
+	margin-bottom: 0px !important;
+	margin-top: 0px !important;
+	width: 35px !important;
+    height: 35px !important;
+}
+
+.headerList{
+	padding-top:5px !important; 
+    padding-bottom: 5px !important;
+    height: 20px !important;
+    font-size: 1.1em !important;
+}
+
+.notification{
+	height: 20px !important;
+	padding: 1px !important;	
+	width: 20px !important;
+	background-color: orange !important;
+}
+
+.primerElement{
+	height: 35px !important;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    list-style: none !important;
+    border-top: 1px solid #9daca9 !important;
+}
+
+.imgListView{
+	width: 20px;
+    height: 20px;
+    padding-bottom: 5px !important;
+    padding-top: 5px !important;
+}
+
+.imgUnder{
+	padding-bottom: 0px !important;
+    padding-top: 5px !important;
+    margin-left: 5px !important;
+}
+
+.imgCart{
+	padding-bottom: 0px !important;              
+    width: 34px !important;
+    height: 35px !important;
+}
+
+.listBest{
+	padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    list-style: none !important;
+}
+
+@media (max-width: 630px){
+	table img{
+		width: 80px;
+		height: 80px;
+	}
+	table p{
+		font-size: 10px;
+	}
+	table td h3{
+		font-size: 13px;
+	}
+	table td h2{
+		font-size: 12px;
+	}
+}
+
+
+/* 
+
+	CSS Slide menu
+
+*/
+
+.goodPadding{
+	padding-top:6px !important; 
+	padding-bottom: 6px !important;
+}
+
+#slide-menu li{
+	padding-bottom: 10px;
+	border-top-width: 0px;
+	padding-top: 10px;
+	font-size: 0.9em !important;
+}
